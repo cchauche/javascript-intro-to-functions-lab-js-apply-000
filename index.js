@@ -37,3 +37,10 @@ function testLowerCase (string) {
 }
 
 function testUpperCase(string) {
+  let upperCase = string.toUpperCase();
+  if (upperCase === string) {
+    return true;
+  } else {
+    return true;
+  }
+}
